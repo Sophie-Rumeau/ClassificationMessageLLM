@@ -2,22 +2,22 @@
   "messages_classes": [
     {
       "contenu": "Bonjour, mon chat Moustache s'est fait renverser par une voiture ce matin. Il est actuellement en soins intensifs à la clinique. Pouvez-vous me confirmer que les frais seront pris en charge ? Contrat n°SAV-2023-78542.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Je souhaite résilier mon contrat. Mon chien Oscar est malheureusement décédé la semaine dernière. Merci de procéder à l'arrêt des prélèvements.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Bonjour, est-ce que la stérilisation de ma chatte est remboursée ? Elle a 8 mois et le vétérinaire me propose de la faire le mois prochain. Merci",
-      "categorie": "autre",
+      "categorie": "question_contrat",
       "clarification": null
     },
     {
       "contenu": "Cela fait 3 semaines que j'ai envoyé la facture pour les soins de Filou (ref: SAV-2022-11234) et je n'ai toujours rien reçu. Pouvez-vous me dire où en est mon dossier ??",
-      "categorie": "autre",
+      "categorie": "demande_remboursement",
       "clarification": null
     },
     {
@@ -27,57 +27,57 @@
     },
     {
       "contenu": "Mon golden retriever Rocky a avalé une chaussette hier soir, on a du l'opérer en urgence cette nuit. La facture est de 1 800€. Je vous envoie tout par mail. Contrat SAV-2024-92311.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "C'est inadmissible ! Vous refusez de me rembourser les soins de mon chat sous prétexte d'un délai de carence. J'ai souscrit il y a 4 mois, c'est du vol ! Je veux résilier immédiatement.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Bonjour, j'hésite entre la formule Confort et la formule Premium pour mon chiot berger australien de 3 mois. Quelle est la différence de plafond annuel ? Et les franchises ?",
-      "categorie": "autre",
+      "categorie": "question_contrat",
       "clarification": null
     },
     {
       "contenu": "Ci-joint la facture pour la consultation + vaccins de Nala. Merci de procéder au remboursement sur mon RIB habituel.",
-      "categorie": "autre",
+      "categorie": "demande_remboursement",
       "clarification": null
     },
     {
       "contenu": "Bonjour j'ai souscrit la semaine dernière pour mon chat Simba. Il tousse depuis 2 jours, est ce que je peux déjà l'emmener chez le véto et être remboursé ou il y a un délai ?",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Ma chienne Luna (croisée labrador) est hospitalisée depuis 3 jours pour une pyomètre. L'opération a eu lieu hier. Je vous transmettrai les documents dès sa sortie. N° contrat : SAV-2021-45678",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Arretez de me prélever. J'ai vendu mon appartement et donné le chat à ma mère qui vit en Belgique. Je ne veux plus de votre assurance.",
-      "categorie": "autre",
+      "categorie": "resiliation",
       "clarification": null
     },
     {
       "contenu": "Bonjour, les rappels de vaccins annuels sont-ils inclus dans ma formule ? Mon véto me dit que ça coute 85€ pour Pepette. Merci de votre retour.",
-      "categorie": "autre",
+      "categorie": "question_contrat",
       "clarification": null
     },
     {
       "contenu": "Je vous ai déjà envoyé la facture 2 fois ! Une fois par courrier et une fois par mail le 12/03. Mon chien s'appelle Roky, c'est un bouledogue français, contrat SAV-2023-33421. Remboursez moi svp",
-      "categorie": "autre",
+      "categorie": "demande_remboursement",
       "clarification": null
     },
     {
       "contenu": "Bonjour, hier au parc mon chat Tigrou s'est battu avec un autre chat et il a une grosse griffure à l'oeil. RDV véto ophtalmo demain matin. Je vous tiens informé.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Bonjour, c'est peut-être une question bête mais est-ce que l'assurance couvre aussi les NAC ? J'ai un furet et je voudrais savoir si vous proposez quelque chose.",
-      "categorie": "autre",
+      "categorie": "question_contrat",
       "clarification": null
     },
     {
@@ -87,42 +87,42 @@
     },
     {
       "contenu": "Bonjour, on vient d'adopter un deuxième chat. Il s'appelle Pixel, c'est un british shorthair de 2 ans. Comment je fais pour l'ajouter à mon contrat existant ?",
-      "categorie": "autre",
+      "categorie": "question_contrat",
       "clarification": null
     },
     {
       "contenu": "Bonjour, j'ai vu que vous m'avez prélevé 2 fois ce mois-ci (45€ le 5 et 45€ le 12). C'est normal ? Sinon merci de me rembourser le trop perçu.",
-      "categorie": "autre",
+      "categorie": "demande_remboursement",
       "clarification": null
     },
     {
       "contenu": "Mon vétérinaire veut opérer Gribouille (chat européen 6 ans) pour une tumeur mammaire. Opération prévue le 22. Montant estimé : 650€. Est-ce couvert par mon contrat SAV-2020-88123 ?",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "bnj je voudrai savoir pk mon rembourssement est pa arrivé. ca fai 1 moi. merci",
-      "categorie": "autre",
+      "categorie": "demande_remboursement",
       "clarification": null
     },
     {
       "contenu": "C'est avec beaucoup de tristesse que je vous annonce le décès de Max, mon fidèle compagnon depuis 14 ans. Il s'est éteint paisiblement hier. Je souhaite clôturer son contrat. Merci pour ces années de service.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Bonjour, visite annuelle de Caramel effectuée. Tout va bien ! Facture de 62€ en PJ pour la consultation de contrôle.",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     },
     {
       "contenu": "Je compte adopter un bouledogue anglais. J'ai lu que c'était une race avec beaucoup de problèmes de santé. Vos tarifs sont-ils plus élevés pour ce type de chien ?",
-      "categorie": "autre",
-      "clarification": null
+      "categorie": null,
+      "clarification": "Pourriez-vous préciser si vous cherchez des conseils sur les **coûts spécifiques** (adoption, soins, assurances) ou s’il s’agit plutôt d’une demande sur les **problèmes de santé courants** et leurs impacts sur le budget à long terme ?"
     },
     {
       "contenu": "Mon chaton Plume 4 mois a mangé du lys !!! On est aux urgences véto. Il est sous perfusion. Je suis en panique totale. Dites moi que c'est pris en charge svp",
-      "categorie": "autre",
+      "categorie": "sinistre",
       "clarification": null
     }
   ]

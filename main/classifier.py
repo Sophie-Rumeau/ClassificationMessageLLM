@@ -1,4 +1,5 @@
 import json
+import re
 from ollama import chat
 
 CATEGORIES = [
@@ -30,7 +31,17 @@ def classify_message(content, model="ministral-3:3b-instruct-2512-q4_K_M"):
             {"role": "user", "content": content}
         ],
     )
-    return response["message"]["content"].strip().lower()
+    raw_response = response["message"]["content"].strip().lower()
+
+    markdown_match = re.search(r"\*\*(sinistre|resiliation|question_contrat|demande_remboursement|autre|besoin_precision)\*\*", raw_response)
+    if markdown_match:
+        return markdown_match.group(1)
+
+    plain_match = re.search(r"\b(sinistre|resiliation|question_contrat|demande_remboursement|autre|besoin_precision)\b", raw_response)
+    if plain_match:
+        return plain_match.group(1)
+
+    return raw_response
 
 
 def ask_clarification(content, model="ministral-3:3b-instruct-2512-q4_K_M"):
