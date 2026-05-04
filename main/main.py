@@ -1,4 +1,5 @@
 from classifier import process_and_save
+from extractIdentity import process_and_save as process_and_save_identity
 
 
 def main():
@@ -10,6 +11,11 @@ def main():
     print("Classification terminée.")
     print(f"{len(results)} messages traités.")
     print(f"Résultat écrit dans : {output_path}")
+
+    results_identity = process_and_save_identity(input_path, "../src/messages_entites.json")
+    print("Extraction d'identité terminée.")
+    print(f"{len(results_identity)} messages traités.")
+    print(f"Résultat écrit dans : ../src/messages_entites.json")
 
 
 if __name__ == "__main__":
